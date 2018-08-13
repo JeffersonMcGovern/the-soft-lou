@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home Page</title>
+	</head>
+	
+		<body>
+		<div id="title">
+			<h1>Table and Link</h1>
+		</div>
+
+<div id="navigation">
+	<hr style="border-top: 3px double #8c2238;" />
+	<p><a href="Home.html" target="_blank">Home</a>
+		<a href="Menu.html" target="_blank">Menu</a>
+		<a href="ContactUs.html" target="_blank">Contact Us</a></p>
+	<hr STYLE="border-top: 3px double #8c2238;" />
+</div>
+
+<div id="description">
+	<hr />
+		<h2>Information Request</h2>
+		<form action="submit.html" method="post">
+		<label for="Name">Name:</label><br/>
+		<input type="text"id="name"name="name"><br/>
+		<label for="email">Email:</label><br/>
+		<input type="text"id="email"name="email"><br/>
+		<label for="phone">Phone:</label><br />
+		<input type="text" id="phone" name="phone"> <br />
+		<label for="contact">Reason for Inquiry:</label><br />
+		<select id="contact" name="contact">
+		<option value="default" selected>--Select One--</option>
+		<option value="catering">Catering</option>
+		<option value="privateParty">Private Party</option>
+		<option value="feedback">Feedback</option>
+		<option value="other">Other</option>
+		</select>
+		</form><br />
+		
+		<fieldset>
+		<label for="been">Have you been to the restaurant?</label><br />
+		<input type="radio" id="choice1" name="questionnaire" value="yes">
+		<label for="choice1">Yes</label><br />	
+		<input type="radio" id="choice2" name="questionnaire" value="no">
+		<label for="choice2">No</label><br />
+		</fieldset>
+		<fieldset>
+		<legend>Best days to contact you:</legend><br />
+		<input type="checkbox" id="Monday" name="interest" value="Monday">
+		<label for="frontEnd">M</label><br />
+		<input type="checkbox" id="Tuesday" name="interest" value="Tuesday">
+		<label for="backEnd">T</label>
+		<input type="checkbox" id="Wednesday" name="interest" value="Wednesday">
+		<label for="database">W</label>
+		<input type="checkbox" id="Thursday" name="interest" value="Thursday">
+		<label for="database">Th</label>
+		<input type="checkbox" id="Friday" name="interest" value="Friday">
+		<label for="database">F</label>
+		</div></div>
+
+	<div id="footer"><hr/>
+		<footer>
+	<p>&copy; 2018 Table and Link</p>
+	<p>1652 Imagination Ave.</p>
+	<p>Louisville, KY 40204</p>
+		<footer>
+	</div>
+</body>
+</html>
